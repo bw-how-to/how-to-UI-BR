@@ -1,0 +1,48 @@
+body {
+  background: #61a16e;
+}
+
+.content {
+  margin: 3% 20%;
+}
+.content .login-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30%;
+  color: #EEEEEE;
+  text-align: center;
+}
+.content .login-container .login-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 2%;
+}
+.content .login-container button {
+  display: flex;
+  border-radius: 16px;
+  background: #EEEEEE;
+  color: black;
+  border: 1px solid black;
+  padding: 4% 0 4% 42%;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.content .login-container #login-btn {
+  padding: 4% 45%;
+  background: #61a16e;
+  color: #EEEEEE;
+}
+
+.header {
+  display: block;
+  text-align: center;
+}
+.header h1 {
+  font-size: 4rem;
+  color: #EEEEEE;
+}
+
+/*# sourceMappingURL=signup.css.map */
