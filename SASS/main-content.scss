@@ -45,6 +45,14 @@ body {
   .welcome-content  {
     border-bottom: 2px solid ;
     padding: 2.5% 0;
+    button {
+      border: .5px solid black;
+      border-radius: 8px;
+      background: #60a06D;
+      color: white;
+      padding: 0.5%;
+      margin-left: 2%;
+    }
   }
 
   .footer {

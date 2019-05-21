@@ -39,6 +39,14 @@ body {
   border-bottom: 2px solid;
   padding: 2.5% 0;
 }
+.welcome-content button {
+  border: 0.5px solid black;
+  border-radius: 8px;
+  background: #60a06D;
+  color: white;
+  padding: 0.5%;
+  margin-left: 2%;
+}
 
 .footer {
   text-align: center;
@@ -49,28 +57,39 @@ body {
   justify-content: space-around;
   border-bottom: 2px solid black;
   height: 10%;
+  width: 100%;
   padding: 1% 0;
   background: #60a06D;
 }
+.header .logo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  margin: 0 0 0 13%;
+}
 .header img {
   padding-top: 0.5%;
-  margin-left: 15%;
-  width: 100px;
-  height: 100px;
+  margin-left: 10%;
+  width: 60px;
+  height: 60px;
 }
 .header .nav {
-  width: 45%;
-  margin-right: 10%;
+  width: 30%;
+  margin-right: 8%;
 }
 .header .nav nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 2%;
 }
 .header .nav nav a {
   text-decoration: none;
   font-size: 1.5rem;
   padding: 1%;
   color: black;
+}
+.header .nav nav a a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=signup.css.map */
