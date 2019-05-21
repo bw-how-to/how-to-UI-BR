@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 20%;
+
+    .content-section {
+      margin: 20px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+     
+      
+      .text-content {
+        width: 70%;
+        padding-right: 1%;
+      }
+    }
+  
+    .inverse-content {
+      padding-bottom: 30px;
+      border-bottom: 2px solid;
+    }
+  
+    .content-destination {
+      width: 75%;
+      margin: 0 auto 30px;
+    }
+  
+    .content-pick {
+      padding-top: 30px;
+      border-top: 2px solid;
+      display: flex;
+      justify-content: space-between;
+  
+      .destination {
+        width: 30%;
+        margin-bottom: 30px;
+      }
+    }
+  }// home
+  
+  .welcome-content  {
+    border-bottom: 2px solid ;
+    padding: 2.5% 0;
+  }
+
+  .footer {
+      text-align: center;
+  }

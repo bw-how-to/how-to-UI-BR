@@ -1,48 +1,76 @@
 body {
-  background: #61a16e;
+  margin: 0;
+  padding: 0;
 }
 
-.content {
-  margin: 3% 20%;
+.container {
+  margin: 0 20%;
 }
-.content .login-container {
+.container .content-section {
+  margin: 20px 0;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 30%;
-  color: #EEEEEE;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .content-section .text-content {
+  width: 70%;
+  padding-right: 1%;
+}
+.container .inverse-content {
+  padding-bottom: 30px;
+  border-bottom: 2px solid;
+}
+.container .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.container .content-pick {
+  padding-top: 30px;
+  border-top: 2px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content-pick .destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.welcome-content {
+  border-bottom: 2px solid;
+  padding: 2.5% 0;
+}
+
+.footer {
   text-align: center;
-}
-.content .login-container .login-content {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 2%;
-}
-.content .login-container button {
-  display: flex;
-  border-radius: 16px;
-  background: #EEEEEE;
-  color: black;
-  border: 1px solid black;
-  padding: 4% 0 4% 42%;
-  text-align: center;
-  font-size: 1.2rem;
-  width: 100%;
-}
-.content .login-container #login-btn {
-  padding: 4% 45%;
-  background: #61a16e;
-  color: #EEEEEE;
 }
 
 .header {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  height: 10%;
+  padding: 1% 0;
+  background: #60a06D;
 }
-.header h1 {
-  font-size: 4rem;
-  color: #EEEEEE;
+.header img {
+  padding-top: 0.5%;
+  margin-left: 15%;
+  width: 100px;
+  height: 100px;
+}
+.header .nav {
+  width: 45%;
+  margin-right: 10%;
+}
+.header .nav nav {
+  display: flex;
+  justify-content: center;
+}
+.header .nav nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: black;
 }
 
 /*# sourceMappingURL=signup.css.map */
