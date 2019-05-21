@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 20%;
+}
+.container .content-section {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .content-section .text-content {
+  width: 48%;
+}
+.container .content-section .img-content {
+  width: 48%;
+  padding-left: 1%;
+  margin: 0;
+}
+.container .content-section .img-content img {
+  border-radius: 10px;
+  width: 100%;
+}
+.container .inverse-content {
+  padding-bottom: 30px;
+  border-bottom: 2px solid;
+}
+.container .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.container .content-pick {
+  padding-top: 30px;
+  border-top: 2px solid;
+  display: flex;
+  justify-content: space-between;
+}
+.container .content-pick .destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.welcome-content {
+  border-bottom: 2px solid;
+  padding: 2.5% 0;
+}
+.welcome-content button {
+  border: 0.5px solid black;
+  border-radius: 8px;
+  background: #60a06D;
+  color: white;
+  padding: 0.5%;
+  margin-left: 2%;
+}
+
+.footer {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  height: 10%;
+  width: 100%;
+  padding: 1% 0;
+  background: #60a06D;
+}
+.header .logo {
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+  margin: 0 0 0 13%;
+}
+.header img {
+  padding-top: 0.5%;
+  margin-left: 10%;
+  width: 60px;
+  height: 60px;
+}
+.header .nav {
+  width: 30%;
+  margin-right: 8%;
+}
+.header .nav nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
+}
+.header .nav nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1%;
+  color: black;
+}
+.header .nav nav a a:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=signup.css.map */
