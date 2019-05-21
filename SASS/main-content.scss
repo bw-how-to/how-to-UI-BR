@@ -14,9 +14,21 @@ body {
      
       
       .text-content {
-        width: 70%;
-        padding-right: 1%;
+        width: 48%;
+        // padding-right: ;
       }
+
+      .img-content {
+        width: 48%;
+        padding-left: 1%;
+        margin: 0;
+    
+        img {
+          border-radius: 10px;
+          width: 100%;
+        }
+      }
+      
     }
   
     .inverse-content {
@@ -58,3 +70,5 @@ body {
   .footer {
       text-align: center;
   }
+
+  
